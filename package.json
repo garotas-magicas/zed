@@ -2,6 +2,9 @@
   "name": "zed",
   "module": "zed.ts",
   "type": "module",
+  "scripts": {
+    "test": "bun ./example/index.ts"    
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
