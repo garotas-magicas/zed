@@ -26,7 +26,7 @@
 
     "paths": {
       "@extensions/*": ["./extensions/*"],
-      "@types/*": ["./types/*"],
+      "@types/*": ["methods/*"],
     }
   }
 }
