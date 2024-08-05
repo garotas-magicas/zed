@@ -25,7 +25,7 @@
     "noPropertyAccessFromIndexSignature": false,
 
     "paths": {
-      "@extensions/*": ["./extensions/*"],
+      "@types/*": ["./types/*"],
       "@methods/*": ["./methods/*"],
       "@functions/*": ["./functions/*"]
     }
