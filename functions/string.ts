@@ -1,0 +1,1 @@
+globalThis.string = (x: number): string => String(x);

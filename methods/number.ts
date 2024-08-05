@@ -1,3 +1,5 @@
+import isNumber from "../util/isNumber";
+
 Number.prototype.string = function (): string {
     return this.toString()
 }

@@ -1,4 +1,7 @@
 declare global {
+
+    function string(x: number): string;
+
     interface String {
 
         /* String */

@@ -1,5 +1,6 @@
 {
   "name": "zed",
+  "version": "1.0.1",
   "module": "zed.ts",
   "type": "module",
   "scripts": {
