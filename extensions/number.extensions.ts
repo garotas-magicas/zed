@@ -1,6 +1,6 @@
 declare global {
 
-    function number(x: string): number;
+    function number(x: any): number;
 
     interface Number {
         /* String */

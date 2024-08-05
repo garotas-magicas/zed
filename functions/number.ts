@@ -1,3 +1,3 @@
 import isNumber from "../util/isNumber";
 
-globalThis.number = (x: string) => isNumber(x); 
+globalThis.number = (x: any) => isNumber(x); 

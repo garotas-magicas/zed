@@ -1,6 +1,6 @@
 declare global {
 
-    function string(x: number): string;
+    function string(x: any): string;
 
     interface String {
 

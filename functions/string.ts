@@ -1,1 +1,1 @@
-globalThis.string = (x: number): string => String(x);
+globalThis.string = (x: any): string => String(x);
