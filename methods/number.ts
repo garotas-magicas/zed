@@ -1,5 +1,5 @@
 Number.prototype.string = function (): string {
-    return String(this);
+    return this.toString()
 }
 
 Number.prototype.min = function (n: number): number {

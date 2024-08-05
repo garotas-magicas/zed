@@ -1,7 +1,7 @@
 import isNumber from '../util/isNumber';
 
-Number.prototype.string = function (): string {
-    return String(this);
+Object.prototype.string = function (): string {
+    return this.toString();
 }
 
 Object.prototype.min = function (n: number): number {

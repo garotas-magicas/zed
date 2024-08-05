@@ -1,5 +1,9 @@
 import isNumber from '../util/isNumber';
 
+String.prototype.string = function (): string {
+    return this.toString();
+}
+
 String.prototype.slug = function (): string {
     return this.trimStart().trimEnd().replaceAll(' ', '-');
 }
