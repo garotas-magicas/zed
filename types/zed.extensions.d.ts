@@ -15,7 +15,7 @@ interface Number {
     string(): string;
 
     /* Number */
-    number(n: number): number;
+    number(): number;
     min(n: number): number;
     max(n: number): number;
 }
